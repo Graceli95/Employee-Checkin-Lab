@@ -22,7 +22,7 @@ public class CommEmp extends Employee {
             System.out.printf("Commission: %.2f\n", calculateSalary());
         }
         else{
-            System.out.printf("No commission salary" + calculateSalary());
+            System.out.printf("No commission salary " + calculateSalary());
         }
 //        PrintStream printStream = totalSales >= MIN_SALES_FOR_COMMISSION ? System.out.printf("Commissioned Salary: $%.2f\n", calculateSalary()) : System.out.printf("Not enough sales, broke, fired Salary: $%.2f\n", calculateSalary());
     }
